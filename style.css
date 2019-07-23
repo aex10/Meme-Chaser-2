@@ -1,0 +1,5535 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("applab/fontawesome-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+#divApplab.appModern button.appModernDesign,
+#divApplab.appModern button.appModernDesign:hover {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  height: 30px;
+  width: 80px;
+  background-color: rgb(26, 188, 156);
+  color: rgb(255, 255, 255);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern label.appModernDesign,
+#divApplab.appModern label.appModernDesign:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  line-height: 1;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  overflow-wrap: break-word;
+  max-width: 320px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  color: rgb(51, 51, 51);
+  background-color: rgba(0, 0, 0, 0);
+  border-top-color: rgb(153, 153, 153);
+  border-right-color: rgb(153, 153, 153);
+  border-bottom-color: rgb(153, 153, 153);
+  border-left-color: rgb(153, 153, 153);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  width: 28px;
+  height: 19px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=text].appModernDesign,
+#divApplab.appModern input[type=text].appModernDesign:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 200px;
+  height: 30px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-top-color: rgb(153, 153, 153);
+  border-right-color: rgb(153, 153, 153);
+  border-bottom-color: rgb(153, 153, 153);
+  border-left-color: rgb(153, 153, 153);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=checkbox].appModernDesign,
+#divApplab.appModern input[type=checkbox].appModernDesign:hover {
+  width: 12px;
+  height: 12px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern select.appModernDesign,
+#divApplab.appModern select.appModernDesign:hover {
+  width: 200px;
+  height: 30px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  background-color: rgb(26, 188, 156);
+  color: rgb(255, 255, 255);
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20256%20448%22%20enable-background%3D%22new%200%200%20256%20448%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.arrow%7Bfill%3A%23ffffff%3B%7D%3C%2Fstyle%3E%3Cpath%20class%3D%22arrow%22%20d%3D%22M255.9%20168c0-4.2-1.6-7.9-4.8-11.2-3.2-3.2-6.9-4.8-11.2-4.8H16c-4.2%200-7.9%201.6-11.2%204.8S0%20163.8%200%20168c0%204.4%201.6%208.2%204.8%2011.4l112%20112c3.1%203.1%206.8%204.6%2011.2%204.6%204.4%200%208.2-1.5%2011.4-4.6l112-112c3-3.2%204.5-7%204.5-11.4z%22%2F%3E%3C%2Fsvg%3E");
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=radio].appModernDesign,
+#divApplab.appModern input[type=radio].appModernDesign:hover {
+  width: 12px;
+  height: 12px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern div.textArea.appModernDesign,
+#divApplab.appModern div.textArea.appModernDesign:hover {
+  width: 200px;
+  height: 100px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-top-color: rgb(153, 153, 153);
+  border-right-color: rgb(153, 153, 153);
+  border-bottom-color: rgb(153, 153, 153);
+  border-left-color: rgb(153, 153, 153);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern img.appModernDesign,
+#divApplab.appModern img.appModernDesign:hover {
+  height: 100px;
+  width: 100px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  object-fit: contain;
+  font-family: "object-fit: contain;";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern canvas.appModernDesign,
+#divApplab.appModern canvas.appModernDesign:hover {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern div.screen.appModernDesign,
+#divApplab.appModern div.screen.appModernDesign:hover {
+  display: block;
+  height: 450px;
+  width: 320px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+#divApplab.appModern div.chart.appModernDesign,
+#divApplab.appModern div.chart.appModernDesign:hover {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern input[type=range].appModernDesign,
+#divApplab.appModern input[type=range].appModernDesign:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  width: 150px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern #intro1 {
+  background-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #image61 {
+  height: 230px;
+  width: 320px;
+  left: 1.66533e-16px;
+  top: 245px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label68 {
+  color: rgb(255, 0, 0);
+  width: 80px;
+  height: 20px;
+  left: 115px;
+  top: 70px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label69 {
+  color: rgb(255, 0, 0);
+  width: 245px;
+  height: 100px;
+  left: 35px;
+  top: 125px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label70 {
+  color: rgb(255, 0, 0);
+  width: 165px;
+  height: 25px;
+  left: 75px;
+  top: 230px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #intro4 {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  display: none;
+}
+
+#divApplab.appModern #image48 {
+  height: 450px;
+  width: 430px;
+  left: -35px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image26 {
+  height: 195px;
+  width: 165px;
+  left: 75px;
+  top: 100px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label41 {
+  color: rgb(255, 255, 255);
+  width: 58px;
+  left: 125px;
+  top: 70px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #StartScreen {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #startscreenbackground {
+  height: 470px;
+  width: 320px;
+  left: -4.44089e-16px;
+  top: -1.11022e-16px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image79 {
+  height: 450px;
+  width: 320px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image78 {
+  height: 290px;
+  width: 320px;
+  left: 2.22045e-16px;
+  top: 2.22045e-16px;
+}
+
+#divApplab.appModern #image80 {
+  height: 240px;
+  width: 250px;
+  left: 70px;
+  top: -55px;
+}
+
+#divApplab.appModern #label2 {
+  font-size: 69px;
+  color: rgb(255, 255, 255);
+  width: 230px;
+  height: 135px;
+  left: 10px;
+  top: 55px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label3 {
+  font-size: 49px;
+  color: rgb(255, 255, 255);
+  width: 220px;
+  height: 70px;
+  left: 5px;
+  top: 120px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #start {
+  height: 45px;
+  width: 90px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 115px;
+  top: 295px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #label22 {
+  font-size: 100px;
+  width: 75px;
+  height: 110px;
+  left: 230px;
+  top: 50px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label23 {
+  font-size: 10px;
+  width: 85px;
+  height: 25px;
+  left: 225px;
+  top: 140px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #shop {
+  height: 70px;
+  width: 85px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 210px;
+  top: 280px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #options {
+  height: 45px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 15px;
+  top: 295px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #about {
+  height: 50px;
+  width: 85px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 120px;
+  top: 355px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #label40 {
+  color: rgb(42, 255, 0);
+  width: 245px;
+  left: 35px;
+  top: 205px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #rating {
+  width: 170px;
+  height: 25px;
+  left: 70px;
+  top: 225px;
+  color: rgb(42, 255, 0);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #subtitles_label2 {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  width: 119px;
+  height: 20px;
+  left: 100px;
+  top: 415px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #updatenotes {
+  color: rgb(0, 255, 240);
+  width: 97px;
+  left: 105px;
+  top: 35px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #Mainscreen {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #Mainbackground {
+  height: 470px;
+  width: 340px;
+  top: -15px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #Mainbackground2 {
+  height: 450px;
+  width: 330px;
+  left: -2.22045e-16px;
+  top: 2.22045e-16px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #brake6 {
+  font-size: 12px;
+  width: 115px;
+  height: 30px;
+  left: 50px;
+  top: 4.44089e-16px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #brake7 {
+  width: 72px;
+  left: 245px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #brake1 {
+  height: 50px;
+  width: 320px;
+  left: 2.22045e-16px;
+  top: -5px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #brake5 {
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  width: 130px;
+  height: 35px;
+  left: 180px;
+  top: 5px;
+  background-color: rgba(236, 0, 0, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #brake3 {
+  height: 280px;
+  width: 320px;
+  top: 145px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #scorelabel {
+  width: 30px;
+  height: 20px;
+  left: 290px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #mainhint {
+  color: rgb(0, 201, 255);
+  width: 130px;
+  height: 20px;
+  left: 90px;
+  top: 30px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #liveslabel {
+  width: 14px;
+  left: 50px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label71 {
+  width: 44px;
+  left: 5px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label72 {
+  width: 48px;
+  left: 240px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #levellabel {
+  font-size: 27px;
+  color: rgb(255, 255, 255);
+  width: 120px;
+  height: 30px;
+  left: 105px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #meme1 {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(255, 255, 255);
+  left: 185px;
+  top: 55px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/meme1.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #meme2 {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(0, 0, 0);
+  left: 60px;
+  top: 55px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/meme2.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #meme6 {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(0, 0, 0);
+  left: 225px;
+  top: 175px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/meme12.jpg");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #meme7 {
+  height: 85px;
+  width: 110px;
+  background-color: rgb(0, 0, 0);
+  left: 105px;
+  top: 175px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/meme18.jpg");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #meme5 {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(255, 255, 255);
+  left: 180px;
+  top: 290px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/mtndewcan.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #meme3 {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(0, 0, 0);
+  left: 50px;
+  top: 285px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/meme3.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #meme4 {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(0, 0, 0);
+  left: 5px;
+  top: 170px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/meme9.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #brake2 {
+  height: 40px;
+  width: 330px;
+  top: 70px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #scorelabel2 {
+  width: 30px;
+  height: 20px;
+  left: 290px;
+  top: -2.22045e-16px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #liveslabel2 {
+  width: 14px;
+  left: 50px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #brake4 {
+  height: 455px;
+  width: 320px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #subtitles_label3 {
+  color: rgb(0, 0, 0);
+  width: 112px;
+  left: 105px;
+  top: 410px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #Gameover {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #image86 {
+  height: 155px;
+  width: 320px;
+  left: 2.22045e-16px;
+  top: 295px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image84 {
+  height: 295px;
+  width: 320px;
+  left: -4.44089e-16px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label6 {
+  font-size: 60px;
+  color: rgb(255, 0, 0);
+  width: 240px;
+  height: 130px;
+  left: 40px;
+  top: 95px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #mainmenu {
+  height: 50px;
+  width: 115px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 160px;
+  top: 280px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #label7 {
+  width: 74px;
+  left: 125px;
+  top: 240px;
+  color: rgb(237, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #gameovershort {
+  width: 50px;
+  font-size: 7px;
+  color: rgba(255, 255, 255, 0.41);
+  background-color: rgba(0, 0, 0, 0.09);
+  top: 420px;
+}
+
+#divApplab.appModern #playagain {
+  height: 50px;
+  width: 115px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 40px;
+  top: 280px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #intro5 {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  display: none;
+}
+
+#divApplab.appModern #image53 {
+  height: 495px;
+  width: 320px;
+  top: -45px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image17 {
+  height: 115px;
+  width: 90px;
+  left: 110px;
+  top: 155px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #jsflare {
+  height: 170px;
+  width: 240px;
+  left: -5px;
+  top: 95px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image19 {
+  height: 85px;
+  width: 85px;
+  left: 115px;
+  top: 340px;
+}
+
+#divApplab.appModern #image20 {
+  height: 90px;
+  width: 120px;
+  left: 95px;
+  top: 280px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image21 {
+  left: 205px;
+  top: 315px;
+}
+
+#divApplab.appModern #image22 {
+  left: 15px;
+  top: 315px;
+}
+
+#divApplab.appModern #image23 {
+  left: 10px;
+  top: 355px;
+}
+
+#divApplab.appModern #image24 {
+  left: 205px;
+  top: 355px;
+}
+
+#divApplab.appModern #label25 {
+  color: rgb(255, 255, 255);
+  width: 90px;
+  height: 25px;
+  left: 110px;
+  top: 120px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label26 {
+  color: rgb(255, 255, 255);
+  width: 41px;
+  left: 135px;
+  top: 285px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #screenflare {
+  height: 210px;
+  width: 225px;
+  left: 95px;
+  top: 220px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #debugconsole {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #loadingcode2 {
+  font-size: 12px;
+  width: 85px;
+  height: 135px;
+  left: 2.22045e-16px;
+  top: 20px;
+  color: rgb(70, 251, 0);
+  text-align: left;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #loadingcode1 {
+  font-size: 12px;
+  width: 145px;
+  height: 20px;
+  color: rgb(70, 251, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #loadingcode3 {
+  font-size: 12px;
+  width: 130px;
+  height: 120px;
+  top: 140px;
+  color: rgb(70, 251, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #loadingcode4 {
+  font-size: 12px;
+  color: rgb(255, 0, 0);
+  width: 255px;
+  height: 30px;
+  top: 265px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #loadingcode5 {
+  font-size: 12px;
+  width: 190px;
+  height: 20px;
+  top: 295px;
+  color: rgb(70, 251, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #loadingcode6 {
+  font-size: 12px;
+  width: 320px;
+  height: 65px;
+  left: -4.44089e-16px;
+  top: 310px;
+  color: rgb(255, 0, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #loadingcode7 {
+  color: rgb(255, 0, 0);
+  width: 20px;
+  height: 20px;
+  left: -4.44089e-16px;
+  top: 375px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #loadingcode8 {
+  color: rgb(255, 0, 0);
+  width: 20px;
+  height: 20px;
+  left: 1.11022e-16px;
+  top: 390px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #loadingcode9 {
+  color: rgb(255, 0, 0);
+  width: 20px;
+  height: 20px;
+  top: 405px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #loadingcode10 {
+  font-size: 12px;
+  width: 46px;
+  height: 17px;
+  top: 430px;
+  color: rgb(70, 251, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #Credits4 {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #image52 {
+  height: 450px;
+  width: 485px;
+  left: -80px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image76 {
+  height: 450px;
+  width: 430px;
+  left: -20px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label36 {
+  font-size: 18px;
+  width: 167px;
+  height: 23px;
+  left: 80px;
+  top: 100px;
+  text-align: center;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label118 {
+  color: rgb(255, 255, 255);
+  width: 65px;
+  left: 125px;
+  top: 165px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label119 {
+  width: 53px;
+  left: 130px;
+  top: 145px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label100 {
+  width: 32px;
+  left: 140px;
+  top: 240px;
+  color: rgb(255, 255, 255);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label153 {
+  color: rgb(255, 255, 255);
+  width: 34px;
+  left: 140px;
+  top: 125px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label154 {
+  color: rgb(255, 255, 255);
+  width: 62px;
+  left: 125px;
+  top: 185px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label155 {
+  color: rgb(255, 255, 255);
+  width: 40px;
+  height: 20px;
+  left: 140px;
+  top: 200px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label163 {
+  color: rgb(255, 255, 255);
+  width: 53px;
+  left: 130px;
+  top: 220px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label5 {
+  color: rgb(0, 6, 255);
+  width: 90px;
+  height: 20px;
+  left: 115px;
+  top: 285px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label19 {
+  color: rgb(255, 255, 255);
+  width: 41px;
+  left: 135px;
+  top: 305px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label178 {
+  color: rgb(255, 255, 255);
+  width: 55px;
+  height: 20px;
+  left: 130px;
+  top: 260px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #Shop {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #shopbackground {
+  height: 450px;
+  width: 320px;
+  top: 2.22045e-16px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image60 {
+  left: 45px;
+  top: -20px;
+}
+
+#divApplab.appModern #label30 {
+  font-size: 38px;
+  color: rgb(255, 255, 255);
+  width: 116px;
+  height: 43px;
+  left: 125px;
+  top: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label44 {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  width: 131px;
+  height: 17px;
+  left: 20px;
+  top: 155px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label46 {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  width: 212px;
+  height: 17px;
+  left: 20px;
+  top: 185px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label47 {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  width: 140px;
+  height: 30px;
+  left: 15px;
+  top: 55px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label48 {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  width: 150px;
+  height: 20px;
+  left: 15px;
+  top: 85px;
+  background-color: rgba(255, 255, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label49 {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  width: 155px;
+  height: 25px;
+  left: 15px;
+  top: 285px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label50 {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  width: 146px;
+  height: 17px;
+  left: 20px;
+  top: 320px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label51 {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  width: 215px;
+  height: 20px;
+  left: 15px;
+  top: 215px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label52 {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  height: 30px;
+  left: 15px;
+  top: 245px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label53 {
+  font-size: 12px;
+  color: rgb(255, 0, 0);
+  width: 155px;
+  height: 45px;
+  top: 390px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label54 {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  width: 165px;
+  height: 30px;
+  left: 10px;
+  top: 350px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label56 {
+  font-size: 10px;
+  color: rgb(215, 255, 0);
+  width: 66px;
+  height: 15px;
+  left: 40px;
+  top: 375px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label57 {
+  font-size: 10px;
+  width: 145px;
+  height: 20px;
+  left: 25px;
+  top: 270px;
+  color: rgb(215, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label58 {
+  font-size: 9px;
+  width: 80px;
+  height: 25px;
+  left: 45px;
+  top: 330px;
+  color: rgb(215, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label59 {
+  font-size: 10px;
+  width: 155px;
+  height: 15px;
+  left: 15px;
+  top: 230px;
+  color: rgb(215, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label60 {
+  font-size: 9px;
+  width: 100px;
+  height: 20px;
+  left: 30px;
+  top: 170px;
+  color: rgb(215, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label61 {
+  font-size: 8px;
+  width: 95px;
+  height: 35px;
+  left: 150px;
+  top: 380px;
+  color: rgb(215, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label62 {
+  font-size: 12px;
+  width: 150px;
+  height: 40px;
+  left: 15px;
+  top: 115px;
+  color: rgb(255, 255, 255);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label63 {
+  font-size: 10px;
+  width: 155px;
+  height: 20px;
+  left: 65px;
+  top: 140px;
+  color: rgb(215, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label64 {
+  font-size: 10px;
+  width: 155px;
+  height: 25px;
+  left: 25px;
+  top: 200px;
+  color: rgb(215, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label65 {
+  font-size: 10px;
+  width: 55px;
+  height: 25px;
+  left: 35px;
+  top: 100px;
+  color: rgb(215, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label66 {
+  font-size: 10px;
+  width: 120px;
+  height: 20px;
+  left: 25px;
+  top: 70px;
+  color: rgb(215, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label67 {
+  font-size: 10px;
+  width: 140px;
+  height: 20px;
+  left: 30px;
+  top: 310px;
+  color: rgb(215, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #buy1 {
+  height: 35px;
+  width: 65px;
+  left: 230px;
+  top: 55px;
+  background-color: rgba(11, 159, 181, 0);
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #label55 {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  width: 135px;
+  height: 45px;
+  left: 15px;
+  top: 405px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #buy2 {
+  height: 35px;
+  width: 65px;
+  left: 230px;
+  top: 85px;
+  background-color: rgba(11, 159, 181, 0);
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #buy7 {
+  height: 35px;
+  width: 65px;
+  left: 230px;
+  top: 240px;
+  background-color: rgba(11, 159, 181, 0);
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #buy9 {
+  height: 35px;
+  width: 65px;
+  left: 230px;
+  top: 315px;
+  background-color: rgba(11, 159, 181, 0);
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #buy6 {
+  height: 35px;
+  width: 65px;
+  left: 230px;
+  top: 210px;
+  background-color: rgba(11, 159, 181, 0);
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #buy8 {
+  height: 35px;
+  width: 65px;
+  left: 230px;
+  top: 280px;
+  background-color: rgba(11, 159, 181, 0);
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #buy3 {
+  height: 35px;
+  width: 65px;
+  left: 230px;
+  top: 115px;
+  background-color: rgba(11, 159, 181, 0);
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #buy4 {
+  height: 35px;
+  width: 65px;
+  left: 230px;
+  top: 145px;
+  background-color: rgba(11, 159, 181, 0);
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #buy5 {
+  height: 35px;
+  width: 65px;
+  left: 230px;
+  top: 175px;
+  background-color: rgba(11, 159, 181, 0);
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #buy10 {
+  height: 35px;
+  width: 65px;
+  left: 230px;
+  top: 350px;
+  background-color: rgba(11, 159, 181, 0);
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #shopback {
+  height: 35px;
+  width: 65px;
+  left: 130px;
+  top: 415px;
+  background-color: rgba(11, 159, 181, 0);
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #buy11 {
+  height: 35px;
+  width: 65px;
+  left: 230px;
+  top: 400px;
+  background-color: rgba(11, 159, 181, 0);
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #label95 {
+  font-size: 11px;
+  color: rgb(23, 255, 0);
+  width: 52px;
+  height: 16px;
+  left: 165px;
+  top: 350px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #shop_popup {
+  height: 130px;
+  width: 180px;
+  color: rgb(255, 0, 0);
+  background-color: rgb(0, 0, 0);
+  left: 70px;
+  top: 160px;
+}
+
+#divApplab.appModern #label143 {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  width: 45px;
+  height: 20px;
+  top: 4.44089e-16px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #close_meme_popup {
+  height: 20px;
+  width: 30px;
+  left: 220px;
+  top: 160px;
+  background-color: rgb(191, 27, 30);
+}
+
+#divApplab.appModern #buy_more_memes {
+  height: 45px;
+  width: 115px;
+  font-size: 8px;
+  background-color: rgba(26, 117, 188, 0);
+  left: 100px;
+  top: 245px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  text-align: center;
+}
+
+#divApplab.appModern #anime_popup {
+  height: 130px;
+  width: 175px;
+  background-color: rgb(0, 0, 0);
+  left: 75px;
+  top: 170px;
+}
+
+#divApplab.appModern #buy_anime {
+  height: 40px;
+  width: 75px;
+  background-color: rgba(26, 188, 156, 0);
+  left: 125px;
+  top: 255px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #close_anime {
+  height: 20px;
+  width: 40px;
+  background-color: rgb(181, 17, 21);
+  left: 210px;
+  top: 170px;
+}
+
+#divApplab.appModern #intro6 {
+  background-color: rgb(0, 0, 0);
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  display: none;
+}
+
+#divApplab.appModern #image54 {
+  height: 205px;
+  width: 340px;
+  left: -5px;
+  top: 120px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image51 {
+  height: 435px;
+  width: 315px;
+  left: 2.22045e-16px;
+  top: -125px;
+  object-fit: cover;
+  font-family: "object-fit: cover;";
+}
+
+#divApplab.appModern #label45 {
+  color: rgb(247, 255, 0);
+  width: 245px;
+  height: 35px;
+  left: 60px;
+  top: 310px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #image55 {
+  height: 30px;
+  width: 35px;
+  left: 15px;
+  top: 305px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #Credits5 {
+  display: none;
+}
+
+#divApplab.appModern #image62 {
+  height: 450px;
+  width: 455px;
+  left: -35px;
+  top: 2.22045e-16px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image77 {
+  height: 450px;
+  width: 365px;
+  left: -30px;
+  top: -4.44089e-16px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label76 {
+  color: rgb(255, 255, 255);
+  width: 85px;
+  height: 30px;
+  left: 120px;
+  top: 30px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label77 {
+  font-size: 18px;
+  color: rgb(0, 255, 240);
+  width: 138px;
+  height: 23px;
+  left: 95px;
+  top: 5px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label78 {
+  color: rgb(255, 255, 255);
+  width: 108px;
+  left: 105px;
+  top: 50px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label79 {
+  color: rgb(255, 255, 255);
+  width: 69px;
+  left: 120px;
+  top: 85px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label80 {
+  color: rgb(255, 255, 255);
+  width: 55px;
+  height: 20px;
+  left: 130px;
+  top: 110px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label81 {
+  color: rgb(255, 255, 255);
+  width: 53px;
+  left: 125px;
+  top: 135px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label82 {
+  color: rgb(255, 255, 255);
+  width: 170px;
+  height: 20px;
+  left: 75px;
+  top: 155px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label83 {
+  color: rgb(255, 255, 255);
+  width: 138px;
+  left: 90px;
+  top: 180px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label84 {
+  color: rgb(255, 255, 255);
+  width: 185px;
+  height: 25px;
+  left: 60px;
+  top: 205px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label85 {
+  color: rgb(255, 255, 255);
+  width: 235px;
+  height: 20px;
+  left: 40px;
+  top: 280px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label86 {
+  color: rgb(255, 255, 255);
+  width: 55px;
+  height: 20px;
+  left: 125px;
+  top: 230px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label87 {
+  color: rgb(255, 255, 255);
+  width: 140px;
+  height: 20px;
+  left: 85px;
+  top: 305px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label88 {
+  color: rgb(255, 255, 255);
+  width: 215px;
+  height: 20px;
+  left: 50px;
+  top: 330px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label89 {
+  color: rgb(255, 255, 255);
+  width: 95px;
+  height: 20px;
+  left: 110px;
+  top: 255px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label90 {
+  color: rgb(255, 255, 255);
+  width: 55px;
+  height: 20px;
+  left: 125px;
+  top: 350px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label91 {
+  width: 165px;
+  height: 30px;
+  left: 80px;
+  top: 395px;
+  color: rgb(0, 255, 240);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label92 {
+  color: rgb(255, 255, 255);
+  width: 150px;
+  left: 85px;
+  top: 65px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #image64 {
+  height: 30px;
+  width: 30px;
+  left: 235px;
+  top: 395px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image65 {
+  height: 30px;
+  width: 30px;
+  left: 45px;
+  top: 395px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #Credits6 {
+  display: none;
+}
+
+#divApplab.appModern #image63 {
+  height: 450px;
+  width: 455px;
+  left: -120px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image67 {
+  height: 450px;
+  width: 320px;
+  top: 1.11022e-16px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image117 {
+  height: 450px;
+  width: 320px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image69 {
+  height: 200px;
+  width: 265px;
+  top: 30px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image73 {
+  height: 215px;
+  width: 295px;
+  left: 35px;
+  top: -50px;
+}
+
+#divApplab.appModern #label110 {
+  width: 235px;
+  height: 115px;
+  left: 50px;
+  top: 190px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label111 {
+  width: 210px;
+  height: 33px;
+  left: 50px;
+  top: 255px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label112 {
+  width: 136px;
+  left: 85px;
+  top: 425px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #rate_mc2_game {
+  height: 50px;
+  width: 105px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 100px;
+  top: 345px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #label121 {
+  font-size: 69px;
+  width: 217px;
+  height: 74px;
+  left: 15px;
+  top: 50px;
+  color: rgb(255, 255, 255);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label122 {
+  font-size: 49px;
+  width: 216px;
+  height: 54px;
+  left: 15px;
+  top: 110px;
+  color: rgb(255, 255, 255);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label123 {
+  font-size: 100px;
+  width: 65px;
+  height: 90px;
+  left: 230px;
+  top: 45px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label168 {
+  color: rgb(255, 255, 255);
+  width: 141px;
+  left: 85px;
+  top: 315px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label140 {
+  font-size: 10px;
+  width: 70px;
+  height: 25px;
+  left: 230px;
+  top: 135px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #settings {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #setttingsbackground {
+  height: 450px;
+  width: 320px;
+  left: 2.22045e-16px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #screeneffect_10 {
+  height: 450px;
+  width: 320px;
+  left: 4.44089e-16px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label27 {
+  color: rgb(255, 255, 255);
+  width: 79px;
+  left: 105px;
+  top: 250px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #settingsback {
+  height: 45px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 120px;
+  top: 400px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #obscure {
+  width: 70px;
+  height: 25px;
+  left: 25px;
+  top: 215px;
+}
+
+#divApplab.appModern #offensive {
+  width: 70px;
+  height: 20px;
+  left: 25px;
+  top: 190px;
+}
+
+#divApplab.appModern #edgy {
+  width: 70px;
+  height: 25px;
+  left: 25px;
+  top: 155px;
+}
+
+#divApplab.appModern #screeneffect_3 {
+  height: 185px;
+  width: 290px;
+  left: 40px;
+  top: 115px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #screeneffect_1 {
+  height: 450px;
+  width: 320px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #screeneffect_8 {
+  height: 295px;
+  width: 305px;
+  left: -15px;
+  top: 210px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #screeneffect_6 {
+  height: 290px;
+  width: 340px;
+  left: -5px;
+  top: 235px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #screeneffect_9 {
+  height: 365px;
+  width: 320px;
+  left: 5px;
+  top: 150px;
+}
+
+#divApplab.appModern #screeneffect_2 {
+  height: 290px;
+  width: 220px;
+  left: 10px;
+  top: -45px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #screeneffect_5 {
+  height: 115px;
+  width: 135px;
+  left: 180px;
+  top: 40px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #MLG_mode {
+  width: 70px;
+  height: 25px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #screeneffect_4 {
+  height: 215px;
+  width: 230px;
+  top: 55px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #screeneffect_7 {
+  height: 190px;
+  width: 240px;
+  left: -20px;
+  top: 210px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image11 {
+  height: 65px;
+  width: 75px;
+  left: 30px;
+  top: 5px;
+}
+
+#divApplab.appModern #label17 {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  width: 136px;
+  height: 37px;
+  left: 120px;
+  top: 20px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label94 {
+  color: rgb(255, 255, 255);
+  width: 125px;
+  height: 20px;
+  left: 100px;
+  top: 220px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label39 {
+  color: rgb(255, 255, 255);
+  width: 94px;
+  left: 100px;
+  top: 160px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label93 {
+  color: rgb(255, 255, 255);
+  width: 130px;
+  height: 20px;
+  left: 100px;
+  top: 190px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #graphics {
+  width: 70px;
+  height: 25px;
+  left: 25px;
+  top: 270px;
+}
+
+#divApplab.appModern #label74 {
+  color: rgb(255, 255, 255);
+  width: 65px;
+  height: 20px;
+  left: 105px;
+  top: 275px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #mlg_popup {
+  height: 140px;
+  width: 175px;
+  background-color: rgb(0, 0, 0);
+  left: 65px;
+  top: 145px;
+}
+
+#divApplab.appModern #spicy {
+  width: 70px;
+  height: 20px;
+  left: 25px;
+  top: 95px;
+}
+
+#divApplab.appModern #label37 {
+  color: rgb(255, 255, 255);
+  width: 96px;
+  left: 100px;
+  top: 95px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label32 {
+  color: rgb(255, 255, 255);
+  width: 97px;
+  left: 100px;
+  top: 130px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label42 {
+  color: rgb(255, 255, 255);
+  width: 66px;
+  left: 105px;
+  top: 300px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label38 {
+  color: rgb(255, 255, 255);
+  width: 100px;
+  height: 20px;
+  left: 105px;
+  top: 365px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label75 {
+  color: rgb(255, 255, 255);
+  width: 38px;
+  left: 105px;
+  top: 335px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #enable_dev_console {
+  width: 70px;
+  height: 25px;
+  left: 25px;
+  top: 360px;
+}
+
+#divApplab.appModern #drm {
+  width: 70px;
+  height: 25px;
+  left: 25px;
+  top: 330px;
+}
+
+#divApplab.appModern #subtitles {
+  width: 70px;
+  height: 25px;
+  left: 25px;
+  top: 300px;
+}
+
+#divApplab.appModern #fresh {
+  width: 70px;
+  height: 25px;
+  left: 25px;
+  top: 125px;
+}
+
+#divApplab.appModern #invalid_popup {
+  height: 140px;
+  width: 175px;
+  background-color: rgb(0, 0, 0);
+  left: 65px;
+  top: 145px;
+}
+
+#divApplab.appModern #settings_popup {
+  height: 140px;
+  width: 175px;
+  background-color: rgb(0, 0, 0);
+  left: 65px;
+  top: 145px;
+}
+
+#divApplab.appModern #close_settings_popup {
+  height: 20px;
+  width: 35px;
+  left: 205px;
+  top: 145px;
+  background-color: rgb(191, 27, 30);
+}
+
+#divApplab.appModern #buy_memes_popup {
+  height: 140px;
+  width: 175px;
+  background-color: rgb(0, 0, 0);
+  left: 65px;
+  top: 145px;
+}
+
+#divApplab.appModern #meme_shop_button {
+  height: 35px;
+  background-color: rgba(0, 170, 255, 0);
+  left: 115px;
+  top: 240px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #close_buy_memes {
+  height: 20px;
+  width: 35px;
+  background-color: rgb(206, 19, 23);
+  left: 205px;
+  top: 145px;
+}
+
+#divApplab.appModern #impulse_popup {
+  height: 140px;
+  width: 175px;
+  background-color: rgb(0, 0, 0);
+  left: 65px;
+  top: 145px;
+}
+
+#divApplab.appModern #impulse_yes {
+  height: 50px;
+  width: 60px;
+  background-color: rgba(26, 188, 156, 0);
+  left: 85px;
+  top: 225px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #impulse_no {
+  width: 70px;
+  background-color: rgba(26, 188, 156, 0);
+  left: 140px;
+  top: 235px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #close_impulse {
+  height: 20px;
+  width: 35px;
+  background-color: rgb(187, 9, 12);
+  left: 205px;
+  top: 145px;
+}
+
+#divApplab.appModern #close_invalid {
+  height: 20px;
+  width: 35px;
+  background-color: rgb(195, 18, 18);
+  left: 205px;
+  top: 145px;
+}
+
+#divApplab.appModern #subtitles_label {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  width: 119px;
+  height: 20px;
+  left: 100px;
+  top: 385px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #mlg_shop {
+  height: 40px;
+  width: 85px;
+  font-size: 10px;
+  background-color: rgba(26, 188, 156, 0);
+  left: 115px;
+  top: 235px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #close_mlg {
+  height: 20px;
+  width: 35px;
+  background-color: rgb(193, 17, 17);
+  left: 205px;
+  top: 145px;
+}
+
+#divApplab.appModern #aboutscreen {
+  background-color: rgb(0, 0, 0);
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  display: none;
+}
+
+#divApplab.appModern #aboutbackground {
+  height: 450px;
+  width: 320px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image56 {
+  height: 65px;
+  width: 65px;
+  left: 65px;
+  top: 15px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label96 {
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+  width: 117px;
+  height: 41px;
+  left: 135px;
+  top: 25px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #aboutback {
+  height: 35px;
+  width: 95px;
+  background-color: rgba(26, 188, 156, 0);
+  left: 115px;
+  top: 410px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #label18 {
+  width: 245px;
+  height: 270px;
+  left: 30px;
+  top: 110px;
+  background-color: rgb(0, 0, 0);
+  text-align: left;
+  color: rgb(70, 251, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #console1 {
+  width: 110px;
+  height: 20px;
+  left: 25px;
+  top: 95px;
+  color: rgb(70, 251, 0);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #consoleflash1 {
+  width: 20px;
+  height: 20px;
+  left: 255px;
+  top: 350px;
+  color: rgb(70, 251, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #Credits1 {
+  display: none;
+}
+
+#divApplab.appModern #image59 {
+  height: 450px;
+  width: 485px;
+  left: -80px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image8 {
+  height: 450px;
+  width: 390px;
+  left: -45px;
+  top: 2.22045e-16px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label102 {
+  font-size: 18px;
+  width: 115px;
+  height: 50px;
+  left: 95px;
+  top: 145px;
+  text-align: center;
+  color: rgb(255, 120, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label105 {
+  color: rgb(255, 255, 255);
+  width: 55px;
+  height: 20px;
+  left: 125px;
+  top: 210px;
+  background-color: rgba(255, 166, 0, 0);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #Credits2 {
+  display: none;
+}
+
+#divApplab.appModern #image68 {
+  height: 450px;
+  width: 485px;
+  left: -80px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image70 {
+  height: 450px;
+  width: 430px;
+  left: -40px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label131 {
+  width: 115px;
+  height: 20px;
+  left: 100px;
+  top: 80px;
+  text-align: center;
+  color: rgb(81, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label134 {
+  width: 48px;
+  left: 130px;
+  top: 165px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label135 {
+  color: rgb(255, 255, 255);
+  width: 50px;
+  height: 20px;
+  left: 130px;
+  top: 145px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label136 {
+  width: 41px;
+  left: 135px;
+  top: 125px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label137 {
+  width: 30px;
+  height: 20px;
+  left: 140px;
+  top: 105px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label138 {
+  width: 70px;
+  height: 25px;
+  left: 120px;
+  top: 185px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label16 {
+  font-size: 18px;
+  color: rgb(212, 9, 148);
+  width: 105px;
+  height: 30px;
+  left: 105px;
+  top: 10px;
+  background-color: rgba(58, 147, 160, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label145 {
+  color: rgb(255, 0, 0);
+  width: 90px;
+  left: 115px;
+  top: 215px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label146 {
+  color: rgb(255, 255, 255);
+  width: 35px;
+  height: 20px;
+  left: 140px;
+  top: 240px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label148 {
+  color: rgb(255, 255, 255);
+  width: 75px;
+  height: 20px;
+  left: 125px;
+  top: 320px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label156 {
+  color: rgb(255, 255, 255);
+  width: 62px;
+  height: 18px;
+  left: 125px;
+  top: 280px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label158 {
+  color: rgb(255, 255, 255);
+  width: 46px;
+  height: 18px;
+  left: 135px;
+  top: 260px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label159 {
+  color: rgb(255, 255, 255);
+  width: 40px;
+  height: 20px;
+  left: 135px;
+  top: 300px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #Credits3 {
+  display: none;
+}
+
+#divApplab.appModern #image74 {
+  height: 450px;
+  width: 485px;
+  left: -80px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image75 {
+  height: 450px;
+  width: 430px;
+  left: -15px;
+  top: 2.22045e-16px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label157 {
+  font-size: 18px;
+  width: 93px;
+  height: 23px;
+  left: 110px;
+  top: 155px;
+  text-align: center;
+  color: rgb(101, 0, 255);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label165 {
+  width: 41px;
+  left: 135px;
+  top: 205px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label167 {
+  width: 30px;
+  height: 20px;
+  left: 140px;
+  top: 180px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label73 {
+  color: rgb(255, 255, 255);
+  width: 42px;
+  left: 135px;
+  top: 280px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label160 {
+  color: rgb(255, 255, 255);
+  width: 35px;
+  height: 20px;
+  left: 140px;
+  top: 255px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label161 {
+  color: rgb(255, 255, 255);
+  width: 46px;
+  left: 135px;
+  top: 230px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #intro7 {
+  display: none;
+}
+
+#divApplab.appModern #image82 {
+  height: 450px;
+  width: 320px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #intro2 {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #image88 {
+  height: 450px;
+  width: 385px;
+  left: -30px;
+  top: 2.22045e-16px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image83 {
+  height: 140px;
+  width: 275px;
+  left: 20px;
+  top: 140px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #game_error {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  display: none;
+}
+
+#divApplab.appModern #image85 {
+  height: 450px;
+  width: 405px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label34 {
+  color: rgb(255, 0, 0);
+  width: 161px;
+  left: 80px;
+  top: 85px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #restartgame {
+  height: 40px;
+  width: 75px;
+  left: 65px;
+  top: 340px;
+  background-color: rgb(13, 108, 247);
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #continue {
+  height: 40px;
+  width: 75px;
+  left: 175px;
+  top: 340px;
+  background-color: rgb(199, 11, 11);
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #label33 {
+  color: rgb(255, 0, 0);
+  width: 15px;
+  height: 15px;
+  left: 60px;
+  top: 30px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label11 {
+  color: rgb(255, 0, 0);
+  width: 170px;
+  height: 50px;
+  left: 70px;
+  top: 175px;
+  text-align: left;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label12 {
+  color: rgb(255, 0, 0);
+  width: 81px;
+  left: 110px;
+  top: 150px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #intro3 {
+  background-color: rgb(0, 0, 0);
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  display: none;
+}
+
+#divApplab.appModern #image93 {
+  height: 180px;
+  width: 255px;
+  left: 25px;
+  top: 15px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image94 {
+  height: 170px;
+  width: 185px;
+  left: 60px;
+  top: 165px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label117 {
+  width: 101px;
+  left: 100px;
+  top: 25px;
+  text-align: center;
+  color: rgb(136, 129, 129);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label120 {
+  color: rgb(136, 129, 129);
+  width: 94px;
+  left: 105px;
+  top: 140px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label115 {
+  font-size: 12px;
+  width: 215px;
+  height: 55px;
+  left: 50px;
+  top: 340px;
+  color: rgb(136, 129, 129);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label116 {
+  font-size: 12px;
+  width: 220px;
+  height: 33px;
+  left: 45px;
+  top: 385px;
+  color: rgb(136, 129, 129);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label113 {
+  font-size: 12px;
+  width: 112px;
+  height: 17px;
+  left: 106.5px;
+  top: 415px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label114 {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  width: 62px;
+  height: 17px;
+  left: 124.5px;
+  top: 430px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #fakeintro1 {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #image25 {
+  height: 230px;
+  width: 320px;
+  left: 1.66533e-16px;
+  top: 245px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label28 {
+  color: rgb(255, 0, 0);
+  width: 80px;
+  height: 20px;
+  left: 115px;
+  top: 70px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label29 {
+  color: rgb(255, 0, 0);
+  width: 245px;
+  height: 100px;
+  left: 35px;
+  top: 125px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label98 {
+  color: rgb(255, 0, 0);
+  width: 165px;
+  height: 25px;
+  left: 75px;
+  top: 230px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label99 {
+  font-size: 12px;
+  width: 280px;
+  height: 30px;
+  color: rgb(251, 0, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #fakeintro2 {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #image32 {
+  height: 385px;
+  width: 330px;
+  left: -10px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image29 {
+  height: 170px;
+  width: 325px;
+  left: -5px;
+  top: 40px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image28 {
+  height: 140px;
+  width: 275px;
+  left: 20px;
+  top: 140px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image31 {
+  height: 45px;
+  width: 325px;
+  left: 1.66533e-16px;
+  top: 240px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #fakeintro3 {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #image36 {
+  height: 450px;
+  width: 320px;
+  top: -1.66533e-16px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image33 {
+  height: 180px;
+  width: 255px;
+  left: 25px;
+  top: 15px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image34 {
+  height: 170px;
+  width: 185px;
+  left: 60px;
+  top: 165px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label101 {
+  width: 101px;
+  left: 100px;
+  top: 25px;
+  text-align: center;
+  color: rgb(136, 129, 129);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label103 {
+  color: rgb(136, 129, 129);
+  width: 94px;
+  left: 105px;
+  top: 140px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label104 {
+  font-size: 12px;
+  width: 215px;
+  height: 55px;
+  left: 50px;
+  top: 340px;
+  color: rgb(136, 129, 129);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label106 {
+  font-size: 12px;
+  width: 220px;
+  height: 33px;
+  left: 45px;
+  top: 385px;
+  color: rgb(136, 129, 129);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label107 {
+  font-size: 12px;
+  width: 117px;
+  height: 17px;
+  left: 105px;
+  top: 415px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label108 {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  width: 36px;
+  height: 17px;
+  left: 142.5px;
+  top: 430px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #fakeintro4 {
+  display: none;
+}
+
+#divApplab.appModern #image58 {
+  height: 450px;
+  width: 430px;
+  left: -110px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image81 {
+  height: 195px;
+  width: 165px;
+  left: 75px;
+  top: 100px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label109 {
+  color: rgb(62, 0, 255);
+  width: 59px;
+  left: 125px;
+  top: 75px;
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #image87 {
+  height: 185px;
+  width: 325px;
+  top: 215px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #fakeintro5 {
+  display: none;
+}
+
+#divApplab.appModern #image89 {
+  height: 495px;
+  width: 320px;
+  top: -40px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image90 {
+  height: 115px;
+  width: 90px;
+  left: 110px;
+  top: 155px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image92 {
+  height: 85px;
+  width: 85px;
+  left: 115px;
+  top: 340px;
+}
+
+#divApplab.appModern #image95 {
+  height: 90px;
+  width: 120px;
+  left: 95px;
+  top: 280px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image96 {
+  left: 205px;
+  top: 315px;
+}
+
+#divApplab.appModern #image97 {
+  left: 15px;
+  top: 315px;
+}
+
+#divApplab.appModern #image98 {
+  left: 10px;
+  top: 355px;
+}
+
+#divApplab.appModern #image99 {
+  left: 205px;
+  top: 355px;
+}
+
+#divApplab.appModern #label124 {
+  color: rgb(255, 0, 244);
+  width: 90px;
+  height: 25px;
+  left: 200px;
+  top: 125px;
+  background-color: rgb(255, 0, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label125 {
+  color: rgb(255, 255, 255);
+  width: 41px;
+  left: 135px;
+  top: 285px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #image102 {
+  height: 210px;
+  width: 320px;
+  top: 245px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image103 {
+  height: 220px;
+  width: 240px;
+  top: 50px;
+}
+
+#divApplab.appModern #fakeintro6 {
+  display: none;
+}
+
+#divApplab.appModern #image107 {
+  height: 450px;
+  width: 320px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image104 {
+  height: 205px;
+  width: 340px;
+  left: -5px;
+  top: 120px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image105 {
+  height: 435px;
+  width: 315px;
+  left: 5px;
+  top: -125px;
+  object-fit: cover;
+  font-family: "object-fit: cover;";
+}
+
+#divApplab.appModern #label126 {
+  color: rgb(0, 255, 6);
+  width: 170px;
+  left: 85px;
+  top: 305px;
+  background-color: rgb(255, 0, 127);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #image106 {
+  height: 30px;
+  width: 35px;
+  left: 45px;
+  top: 295px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #fakeintro7 {
+  display: none;
+}
+
+#divApplab.appModern #image108 {
+  height: 450px;
+  width: 320px;
+  top: 15px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image109 {
+  height: 165px;
+  width: 320px;
+  top: 225px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image110 {
+  height: 110px;
+  width: 320px;
+  left: -4.44089e-16px;
+  top: 10px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image111 {
+  height: 60px;
+  width: 320px;
+  top: 370px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #fakestartscreen {
+  display: none;
+}
+
+#divApplab.appModern #image116 {
+  height: 450px;
+  width: 320px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image112 {
+  height: 450px;
+  width: 320px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image114 {
+  height: 290px;
+  width: 320px;
+  left: 2.22045e-16px;
+  top: 2.22045e-16px;
+}
+
+#divApplab.appModern #image115 {
+  height: 240px;
+  width: 250px;
+  left: 70px;
+  top: -45px;
+}
+
+#divApplab.appModern #label127 {
+  font-size: 69px;
+  color: rgb(255, 255, 255);
+  width: 230px;
+  height: 135px;
+  left: 10px;
+  top: 55px;
+  background-color: rgba(230, 230, 230, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label128 {
+  font-size: 49px;
+  color: rgb(255, 255, 255);
+  width: 220px;
+  height: 70px;
+  left: 5px;
+  top: 120px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #fakestart {
+  height: 45px;
+  width: 90px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 115px;
+  top: 295px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #label130 {
+  font-size: 100px;
+  width: 75px;
+  height: 110px;
+  left: 230px;
+  top: 50px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label132 {
+  font-size: 10px;
+  width: 85px;
+  height: 25px;
+  left: 225px;
+  top: 140px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #button2 {
+  height: 70px;
+  width: 85px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 210px;
+  top: 280px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #button3 {
+  height: 45px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 15px;
+  top: 295px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #button4 {
+  height: 50px;
+  width: 85px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 120px;
+  top: 355px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #label133 {
+  color: rgb(42, 255, 0);
+  width: 175px;
+  height: 20px;
+  left: 70px;
+  top: 200px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label139 {
+  width: 185px;
+  height: 35px;
+  left: 70px;
+  top: 225px;
+  color: rgb(42, 255, 0);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #fakemainscreen {
+  display: none;
+}
+
+#divApplab.appModern #fakescreenbackground {
+  height: 470px;
+  width: 340px;
+  left: -5px;
+  top: -20px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image2 {
+  height: 50px;
+  width: 320px;
+  top: -10px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image3 {
+  height: 280px;
+  width: 320px;
+  top: 145px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label1 {
+  width: 30px;
+  height: 20px;
+  left: 290px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label4 {
+  width: 72px;
+  left: 245px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label8 {
+  color: rgb(0, 201, 255);
+  width: 130px;
+  height: 20px;
+  left: 90px;
+  top: 30px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label9 {
+  width: 20px;
+  height: 20px;
+  left: 50px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label10 {
+  width: 44px;
+  left: 5px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label13 {
+  width: 48px;
+  left: 240px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label14 {
+  font-size: 27px;
+  color: rgb(255, 255, 255);
+  width: 120px;
+  height: 30px;
+  left: 105px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label24 {
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  width: 130px;
+  height: 35px;
+  left: 180px;
+  top: 5px;
+  background-color: rgba(236, 0, 0, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label43 {
+  font-size: 12px;
+  width: 115px;
+  height: 30px;
+  left: 50px;
+  top: 4.44089e-16px;
+  color: rgb(255, 253, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #button5 {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(255, 255, 255);
+  left: 185px;
+  top: 55px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/meme1.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #button6 {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(0, 0, 0);
+  left: 60px;
+  top: 55px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/meme2.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #button7 {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(0, 0, 0);
+  left: 225px;
+  top: 175px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/meme12.jpg");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #button13 {
+  height: 85px;
+  width: 110px;
+  background-color: rgb(0, 0, 0);
+  left: 105px;
+  top: 175px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/meme18.jpg");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #button14 {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(255, 255, 255);
+  left: 180px;
+  top: 290px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/mtndewcan.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #button15 {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(0, 0, 0);
+  left: 50px;
+  top: 285px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/meme3.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #button16 {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(0, 0, 0);
+  left: 5px;
+  top: 170px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/meme9.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #image4 {
+  height: 40px;
+  width: 330px;
+  top: 70px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #safe-dev_reset {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #image5 {
+  height: 450px;
+  width: 425px;
+  left: -10px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label129 {
+  font-size: 23px;
+  color: rgb(255, 0, 0);
+  width: 171px;
+  height: 28px;
+  left: 70px;
+  top: 185px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #dev_reco {
+  height: 35px;
+  background-color: rgb(84, 84, 84);
+  left: 115px;
+  top: 305px;
+}
+
+#divApplab.appModern #shut_down {
+  left: 115px;
+  top: 350px;
+  background-color: rgb(84, 84, 84);
+}
+
+#divApplab.appModern #label141 {
+  color: rgb(179, 173, 173);
+  width: 294px;
+  left: 15px;
+  top: 235px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label142 {
+  color: rgb(125, 108, 108);
+  width: 88px;
+  left: 115px;
+  top: 210px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label144 {
+  font-size: 146px;
+  color: rgb(255, 0, 0);
+  width: 105px;
+  height: 151px;
+  left: 100px;
+  top: 25px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #recovery_options {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #image1 {
+  height: 450px;
+  width: 320px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label97 {
+  font-size: 26px;
+  color: rgb(255, 255, 255);
+  width: 235px;
+  height: 31px;
+  left: 40px;
+  top: 10px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #reset_game {
+  left: 40px;
+  top: 170px;
+  background-color: rgb(84, 84, 84);
+}
+
+#divApplab.appModern #repair_game {
+  font-size: 12px;
+  left: 40px;
+  top: 225px;
+  background-color: rgb(84, 84, 84);
+}
+
+#divApplab.appModern #boot_rom {
+  font-size: 12px;
+  left: 40px;
+  top: 280px;
+  background-color: rgb(84, 84, 84);
+}
+
+#divApplab.appModern #errorpopup1 {
+  height: 135px;
+  width: 170px;
+  color: rgb(255, 0, 0);
+  background-color: rgb(0, 0, 0);
+  left: 70px;
+  top: 145px;
+  text-align: center;
+}
+
+#divApplab.appModern #exiterror_0x80 {
+  height: 20px;
+  width: 30px;
+  background-color: rgb(191, 27, 30);
+  left: 210px;
+  top: 145px;
+}
+
+#divApplab.appModern #errorpopup2 {
+  height: 135px;
+  width: 170px;
+  color: rgb(255, 0, 0);
+  background-color: rgb(0, 0, 0);
+  left: 70px;
+  top: 145px;
+}
+
+#divApplab.appModern #exit_error2 {
+  height: 20px;
+  width: 30px;
+  left: 210px;
+  top: 145px;
+  background-color: rgb(191, 27, 30);
+}
+
+#divApplab.appModern #Reset_game {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #image6 {
+  height: 450px;
+  width: 450px;
+  left: -50px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label15 {
+  font-size: 12px;
+  color: rgb(255, 0, 0);
+  width: 115px;
+  height: 17px;
+  top: 2.22045e-16px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #console_1 {
+  font-size: 12px;
+  color: rgb(255, 0, 0);
+  width: 210px;
+  height: 17px;
+  top: 20px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #console_2 {
+  font-size: 12px;
+  color: rgb(255, 0, 0);
+  width: 215px;
+  height: 17px;
+  top: 35px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #console_3 {
+  font-size: 12px;
+  color: rgb(255, 0, 0);
+  width: 184px;
+  height: 17px;
+  top: 50px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #console_4 {
+  color: rgb(255, 0, 0);
+  width: 15px;
+  top: 60px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #Finalreset {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #final1 {
+  color: rgb(255, 255, 255);
+  width: 145px;
+  height: 20px;
+  left: 90px;
+  top: 20px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #final2 {
+  color: rgb(255, 255, 255);
+  width: 185px;
+  height: 20px;
+  left: 60px;
+  top: 60px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #final3 {
+  color: rgb(255, 255, 255);
+  width: 205px;
+  height: 30px;
+  left: 50px;
+  top: 100px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #final6 {
+  color: rgb(255, 255, 255);
+  width: 170px;
+  height: 25px;
+  left: 65px;
+  top: 230px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #final4 {
+  color: rgb(255, 255, 255);
+  width: 205px;
+  height: 35px;
+  left: 50px;
+  top: 140px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #final7 {
+  color: rgb(255, 255, 255);
+  width: 200px;
+  height: 25px;
+  left: 50px;
+  top: 280px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #final8 {
+  color: rgb(255, 255, 255);
+  width: 120px;
+  height: 30px;
+  left: 95px;
+  top: 325px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #final5 {
+  color: rgb(255, 255, 255);
+  width: 190px;
+  height: 25px;
+  left: 60px;
+  top: 190px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #final9 {
+  color: rgb(255, 255, 255);
+  width: 185px;
+  height: 35px;
+  left: 65px;
+  top: 375px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #Finalchoice {
+  background-color: rgb(0, 0, 0);
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  display: none;
+}
+
+#divApplab.appModern #final_13 {
+  color: rgb(255, 255, 255);
+  width: 195px;
+  height: 33px;
+  left: 60px;
+  top: 90px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #final14_delete {
+  font-size: 12px;
+  background-color: rgb(75, 86, 84);
+  left: 115px;
+  top: 235px;
+}
+
+#divApplab.appModern #final_14 {
+  color: rgb(88, 83, 83);
+  width: 250px;
+  height: 25px;
+  left: 35px;
+  top: 205px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #final_16 {
+  width: 205px;
+  height: 20px;
+  left: 55px;
+  top: 320px;
+  color: rgb(88, 83, 83);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #final_15 {
+  width: 23px;
+  left: 140px;
+  top: 290px;
+  color: rgb(88, 83, 83);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #final16_finish {
+  font-size: 12px;
+  left: 115px;
+  top: 350px;
+  background-color: rgb(75, 86, 84);
+}
+
+#divApplab.appModern #Final_finish {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #over {
+  color: rgb(255, 255, 255);
+  width: 72px;
+  left: 115px;
+  top: 195px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #nothing {
+  color: rgb(255, 0, 0);
+  width: 180px;
+  height: 20px;
+  left: 70px;
+  top: 220px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #Final_delete {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #thankyou {
+  color: rgb(255, 255, 255);
+  width: 80px;
+  left: 115px;
+  top: 190px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #loggingout {
+  color: rgb(13, 255, 0);
+  width: 130px;
+  left: 95px;
+  top: 210px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #BuyMemes {
+  display: none;
+}
+
+#divApplab.appModern #image12 {
+  height: 265px;
+  width: 320px;
+  top: -90px;
+}
+
+#divApplab.appModern #image7 {
+  height: 175px;
+  width: 320px;
+  left: 2.22045e-16px;
+  top: 120px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image10 {
+  height: 180px;
+  width: 320px;
+  top: 290px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label147 {
+  font-size: 45px;
+  color: rgb(255, 49, 0);
+  width: 124px;
+  height: 50px;
+  left: 115px;
+  top: 15px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #image14 {
+  height: 75px;
+  width: 140px;
+  left: 5px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label149 {
+  font-size: 13px;
+  width: 164px;
+  height: 18px;
+  left: 20px;
+  top: 75px;
+  color: rgb(255, 49, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #buy_store1 {
+  height: 35px;
+  width: 95px;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 170px;
+  top: 70px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #label150 {
+  font-size: 12px;
+  width: 168px;
+  height: 17px;
+  left: 15px;
+  top: 120px;
+  color: rgb(255, 49, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label151 {
+  font-size: 12px;
+  width: 193px;
+  height: 17px;
+  top: 170px;
+  color: rgb(255, 49, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label152 {
+  font-size: 12px;
+  width: 229px;
+  height: 17px;
+  top: 220px;
+  color: rgb(255, 49, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label162 {
+  width: 17px;
+  left: 10px;
+  top: 240px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label164 {
+  font-size: 12px;
+  width: 265px;
+  height: 230px;
+  top: 280px;
+  color: rgb(255, 49, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #buy_store2 {
+  height: 35px;
+  width: 95px;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 170px;
+  top: 110px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #buy_store3 {
+  height: 35px;
+  width: 90px;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 180px;
+  top: 160px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #buy_store5 {
+  height: 40px;
+  width: 105px;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 140px;
+  top: 255px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #buy_store4 {
+  height: 40px;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 225px;
+  top: 205px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #benchmark {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #image9 {
+  height: 450px;
+  width: 455px;
+  left: -70px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label20 {
+  font-size: 15px;
+  color: rgb(255, 244, 0);
+  width: 150px;
+  height: 55px;
+  left: 75px;
+  top: 170px;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label21 {
+  font-size: 116px;
+  color: rgb(255, 0, 0);
+  width: 100px;
+  height: 140px;
+  left: 105px;
+  top: 35px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label31 {
+  width: 78px;
+  left: 110px;
+  top: 265px;
+  color: rgb(255, 244, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label35 {
+  width: 77px;
+  left: 110px;
+  top: 285px;
+  color: rgb(255, 244, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label166 {
+  width: 75px;
+  left: 110px;
+  top: 305px;
+  color: rgb(255, 244, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label169 {
+  width: 59px;
+  left: 115px;
+  top: 240px;
+  color: rgb(255, 244, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label170 {
+  width: 230px;
+  height: 35px;
+  left: 40px;
+  top: 200px;
+  color: rgb(255, 244, 0);
+  text-align: left;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #vacbannedxd {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #label179 {
+  width: 205px;
+  height: 115px;
+  left: 55px;
+  top: 135px;
+  background-color: rgb(0, 0, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #image13 {
+  height: 190px;
+  width: 330px;
+  left: -10px;
+  top: -40px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label171 {
+  color: rgb(255, 255, 255);
+  width: 185px;
+  height: 20px;
+  left: 65px;
+  top: 140px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label172 {
+  color: rgb(255, 0, 0);
+  width: 215px;
+  height: 70px;
+  left: 60px;
+  top: 165px;
+  background-color: rgba(113, 113, 113, 0);
+  text-align: left;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label173 {
+  color: rgb(255, 255, 255);
+  width: 97px;
+  left: 110px;
+  top: 420px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #image15 {
+  height: 230px;
+  width: 320px;
+  top: 200px;
+}
+
+#divApplab.appModern #sv_cheats_op {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  display: none;
+}
+
+#divApplab.appModern #image27 {
+  height: 485px;
+  width: 320px;
+  left: 2.22045e-16px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image16 {
+  height: 185px;
+  width: 320px;
+  left: 1.11022e-16px;
+  top: 20px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image18 {
+  height: 175px;
+  width: 320px;
+  top: 245px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label174 {
+  font-size: 20px;
+  color: rgb(32, 255, 0);
+  width: 210px;
+  height: 30px;
+  left: 55px;
+  top: 215px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label175 {
+  font-size: 20px;
+  width: 245px;
+  height: 30px;
+  left: 40px;
+  top: 420px;
+  color: rgb(32, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label176 {
+  width: 230px;
+  height: 20px;
+  left: 2.22045e-16px;
+  top: 2.22045e-16px;
+  color: rgb(32, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label177 {
+  width: 75px;
+  height: 20px;
+  left: 245px;
+  color: rgb(32, 255, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #login_to_steam {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #image30 {
+  height: 125px;
+  width: 320px;
+  top: 70px;
+}
+
+#divApplab.appModern #drm_username {
+  left: 55px;
+  top: 255px;
+}
+
+#divApplab.appModern #label181 {
+  color: rgb(255, 255, 255);
+  width: 75px;
+  left: 115px;
+  top: 235px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #drm_password {
+  left: 55px;
+  top: 325px;
+}
+
+#divApplab.appModern #label182 {
+  color: rgb(255, 255, 255);
+  width: 71px;
+  left: 115px;
+  top: 305px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #drm_login {
+  height: 40px;
+  width: 85px;
+  background-color: rgba(0, 0, 0, 0);
+  left: 115px;
+  top: 385px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #label183 {
+  color: rgb(255, 255, 255);
+  width: 215px;
+  height: 33px;
+  left: 50px;
+  top: 5px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #drm_popup {
+  height: 175px;
+  width: 230px;
+  background-color: rgb(0, 0, 0);
+  left: 40px;
+  top: 120px;
+}
+
+#divApplab.appModern #drm_close {
+  height: 25px;
+  width: 45px;
+  background-color: rgb(197, 15, 15);
+  left: 225px;
+  top: 120px;
+}
+
+#divApplab.appModern #drm_back {
+  height: 35px;
+  width: 75px;
+  background-color: rgba(26, 188, 156, 0);
+  left: 120px;
+  top: 255px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #understandable {
+  font-size: 25px;
+  color: rgb(255, 244, 0);
+  width: 175px;
+  height: 30px;
+  left: 70px;
+  top: 45px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #out_of_money {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #image37 {
+  height: 190px;
+  width: 320px;
+  top: 245px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image35 {
+  height: 175px;
+  width: 320px;
+  top: 10px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label185 {
+  color: rgb(255, 0, 0);
+  width: 157px;
+  left: 80px;
+  top: 185px;
+  background-color: rgba(255, 0, 0, 0);
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #f {
+  height: 45px;
+  width: 90px;
+  background-color: rgba(26, 188, 156, 0);
+  left: 110px;
+  top: 205px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #label186 {
+  color: rgb(255, 255, 255);
+  width: 185px;
+  height: 25px;
+  left: 70px;
+  top: 255px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #ea_popup {
+  height: 205px;
+  width: 320px;
+  top: 125px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #money {
+  height: 450px;
+  width: 420px;
+  left: -65px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #rate_mc2.wad {
+  display: none;
+}
+
+#divApplab.appModern #image45 {
+  height: 450px;
+  width: 430px;
+  left: -60px;
+  top: 4.44089e-16px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #label187 {
+  font-size: 20px;
+  color: rgb(0, 255, 65);
+  width: 210px;
+  height: 70px;
+  left: 45px;
+  top: 10px;
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #no_u {
+  height: 40px;
+  width: 85px;
+  background-color: rgba(26, 188, 156, 0);
+  left: 120px;
+  top: 405px;
+  background-image: url("https://studio.code.org/v3/assets/SLTFfdR_mQ_sWdUP9sMF9aJmWjFJzhSPxOB1zTYOnv8/uibutton.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #rating_label {
+  font-size: 16px;
+  width: 320px;
+  height: 40px;
+  top: 335px;
+  color: rgb(0, 255, 65);
+  text-align: center;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #label184 {
+  font-size: 140px;
+  color: rgb(0, 255, 8);
+  width: 80px;
+  height: 145px;
+  left: 115px;
+  top: 115px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #jetpack {
+  height: 225px;
+  width: 300px;
+  left: 10px;
+  top: 100px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #egg {
+  height: 230px;
+  width: 155px;
+  left: 80px;
+  top: 80px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #open_up {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #image43 {
+  height: 195px;
+  width: 320px;
+  top: 120px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
+
+#divApplab.appModern #image42 {
+  height: 200px;
+  width: 240px;
+  left: 50px;
+  top: 120px;
+}
+
+#divApplab.appModern #ded {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #image44 {
+  height: 300px;
+  width: 320px;
+  top: 80px;
+}
+
+#divApplab.appModern #static {
+  display: none;
+}
+
+#divApplab.appModern #image38 {
+  height: 450px;
+  width: 320px;
+  object-fit: fill;
+  font-family: "object-fit: fill;";
+}
